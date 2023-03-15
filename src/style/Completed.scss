@@ -1,0 +1,38 @@
+.main-completed{
+    width: 100%;
+    height: 605px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}
+.completed-bar{
+    padding: 10px 0;
+    span{
+        font-size: 18px;
+        font-weight: 400;
+        color: #1f1f39;
+        margin-left: 20px;
+    }    
+}
+.line-completed{
+    width: 100%;
+    height: 1px;
+    /* margin-top: 15px; */
+    background-color: #d4d4d4;
+}
+@media screen and (max-width: 860px) {
+    .main-completed{
+        height: 630px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .main-completed{
+        height: 665px;
+    }
+    .completed-bar{
+        span{
+            font-size: 16px;
+        }    
+    }
+}

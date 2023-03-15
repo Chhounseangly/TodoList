@@ -1,0 +1,34 @@
+.project-item{
+    padding-left: 20px;
+    // border: #1f1f39 1px solid;
+    .project-link{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        color: #1f1f39;
+        padding: 8px 0px;
+    }
+    .btn-more-vertical{
+        position: absolute;
+        border: none;
+        background: transparent;
+        display: flex;
+        right: 5px;
+        .more-vertical{
+            width: 12px;
+            margin: auto;
+        }
+    }
+    .btn-more-vertical:active{
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background-color: rgb(31, 31, 57, .1);
+    }
+}
+.project-item:hover{
+    background-color: #f4f4f4;
+}
+

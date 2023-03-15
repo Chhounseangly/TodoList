@@ -1,0 +1,38 @@
+.container-group-task{
+    border-bottom: 1px solid #d4d4d4;
+    padding-left: 40px;
+    .list-gr-task{
+        width: 100%;
+        font-size: 14px;
+        .group-todo-name{
+            width: 35%;
+            .btn-groupTodo{
+                width: 100%;
+                text-align: left;
+                border: none;
+                padding: 8px 0;
+                background: transparent;
+                cursor: pointer;
+            }
+        }
+        .group-todo-other{
+            width: 16%;
+        }
+        .selection-option-teamTodo{
+            width: 60%;
+            border: none;
+            background: transparent;
+            outline: none;
+            padding: 0;
+            cursor: pointer;
+        }
+    }
+}
+.container-group-task:hover{
+    background-color: rgb(18, 212, 175, .1);
+}
+@media screen and (max-width: 640px) {
+    .container-group-task{
+        padding-left: 25px;
+    }
+}

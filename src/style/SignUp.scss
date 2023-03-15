@@ -1,0 +1,121 @@
+.conatiner-signup-page{
+    margin: auto;
+    // border: 1px solid #12d4af;
+}
+.logo-img{
+    width: 142px;
+    height: 142px;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+}
+.container-signup{
+    width: 340px;
+    height: 460px;
+    margin: auto;
+    position: relative;
+    background-color: #ffffff;
+    /* border: 1px solid #12d4af; */
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.header{
+    p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+    }
+    span{
+        color: #12d4af;
+    }
+}
+.email-box-signup{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border: 1px solid #12d4af;
+    border-radius: 10px;
+    input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    img{
+        margin-left: 15px;
+    }
+    ::placeholder{
+        color: #cbcbcb;
+    }
+}
+.password-box-signup{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid #12d4af;
+    border-radius: 10px;
+    input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    img{
+        margin-left: 15px;
+    }
+    ::placeholder{
+        color: #cbcbcb;
+    }
+}
+.signup-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+.btn-signup{
+    width: 100%;
+    height: 40px;
+    background-color: #12d4af;
+    color: #1f1f39;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-signup:hover{
+    background-color: #0ac5a3;
+}
+.block-bar{
+    width: 1px;
+    height: 25px;
+    background-color: #c2c2c2;
+    margin-left: 15px;
+}
+.already-exist{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    a{
+        text-decoration: none;
+        color: #12d4af;
+    }
+}
+.already-exist a:hover{
+    text-decoration: underline;
+}

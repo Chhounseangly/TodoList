@@ -1,0 +1,81 @@
+.navbar-menu{
+    min-width: 260px;
+    height: 770px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* border: 1px solid #12d4af; */
+}
+.logo-doitnow{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    font-family: 'Livvic', sans-serif;
+    color: #1f1f39;
+    border-bottom: 1px solid #d4d4d4;
+    text-decoration: none;
+}
+.img-logo{
+    margin-right: 10px;
+}
+.nav-menu-item ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li a{
+        display: flex;
+        align-items: center;
+        color: #1f1f39;
+        padding: 16px 20px;
+        font-size: 15px;
+        text-decoration: none;
+        border-bottom: 1px solid #d4d4d4;
+    }
+}
+.nav-menu-item ul li a:hover{
+    background-color: #f4f4f4;
+}
+.bar-icon{
+    width: 22px;
+}
+.item-name{
+    margin-left: 20px;
+}
+.new-group{
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    background-color: #12d4af;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 0px rgba(84, 84, 84, 0.4);
+    img{
+        margin: auto;
+    }
+}
+.new-group:hover{
+    background-color: rgb(2, 190, 155);
+}
+.group-bar{
+    overflow: hidden;
+    h3{
+        color: #12d4af;
+        padding-left: 20px;
+    }
+}
+.container-gr-item{
+    height: 500px;
+    border-radius: 0 0 8px 8px;
+    overflow-y: scroll;
+    position: relative;
+}
+@media screen and (max-width: 1130px) {
+    .navbar-menu{
+        display: none;
+    }
+}
